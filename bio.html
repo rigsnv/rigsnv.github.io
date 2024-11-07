@@ -1,15 +1,27 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Ricardo Garcia Cerrada <meta>CV, Portfoloio, Sound Design, Video Making, Web Development, Software Engineering</title>
+        <title>Ricardo Garcia Cerrada - About</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="This is my professional webside where to showcase my experience, past and current projects and a little bit about me">
+        <meta name="keywords" content="Profile, portfolio, cv, web, software, design, development, sound, music, photography, video, videography">
+        <meta name="author" content="Ricardo Garcia Cerrada">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/style.css">
+        <script src="https://kit.fontawesome.com/bda4d39529.js" crossorigin="anonymous"></script>
+
+        <script>
+            window.onlona = function() {
+                document.getElementByID().innerHTML = "";
+            };
+        </script>
+    </head>
     <body>
         <div>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projects.html">Projects</a></li>
-                <li><a href="tables.html">Tables</a></li>
                 <li><a style="color: rgb(252, 230, 201); "href="bio.html">Bio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -47,7 +59,10 @@
             <h2>Want to know more?</h2>
             <button class="shrink-border">Get in touch</button>
         </section>
-<!-- This is bottom dialogue --> 
+
+        </div>
+
+        <!-- This is my Education Table Section -->
         <section class="intro">
             <h2>
                 Origins &amp; Trajectory
@@ -55,8 +70,52 @@
             <p>
                 This is the page where I give relevant backgorund information about myself, my past, present and vision for the future 
             </p>
+            <hr>
+            <h2>Education</h2>
+            <br>
+            <br>
+            <table class="custom-table">
+                <tr>
+                    <th>Institution</th>
+                    <th>Subject</th>
+                    <th>Qualification</th>
+                    <th>Year</th>
+
+                </tr>
+                <tr>
+                    <td>The Glasgow School of Art</td>
+                    <td>Audio Engineering</td>
+                    <td>PGD in Sound for the Moving Image</td>
+                    <td>2017</td>
+                </tr>
+                <tr>
+                    <td>Middlesex University</td>
+                    <td>Audio Engineering</td>
+                    <td>BSc (Honors) in Audio Production</td>
+                    <td>2014</td>
+                </tr>
+                <tr>
+                    <td>SAE Institue</td>
+                    <td>Music Production</td>
+                    <td>HND in Music Production</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>Escuela Superior de Audio y Acustica</td>
+                    <td>Audio and Acustics Engineering</td>
+                    <td>Diploma in Sound and Acoustics</td>
+                    <td>2009</td>
+                </tr>
+                <tr>
+                    <td>Universidad Simon Bolivar</td>
+                    <td>Physics</td>
+                    <td>BSc in Physics</td>
+                    <td>2009</td>
+                </tr>
+            </table>
         </section>
-        </div>
+        
+        <!-- This is the Footer Section -->
         <footer>
             <div class="footer-content">
                 <p>&copy Ricardo Garcia Cerrada. All rights Reserved.</p>
